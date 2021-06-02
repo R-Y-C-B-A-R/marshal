@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+Redirect 301 /defaultsite /
+RewriteRule ^(.*)$ https://venom.de/$1 [R=301,L]
